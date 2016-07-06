@@ -9,5 +9,9 @@ Homepage: https://github.com/ratt-ru/cassbeam
 Package: cassbeam
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: a Cassegrain antenna ray tracer
+ Based on an input text file, it computes several properties of the antenna
+ including gain, zenith system temperature, and the beam, in full polarization.
+ All calculations are done in the {\it transmit sense} and use reciprocity to
+ relate to the equivalent receiving system.  
+

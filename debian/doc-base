@@ -1,0 +1,12 @@
+Document: cassbeam
+Title:Software for Cassegrain antenna modelling
+Author: Walter Brisken
+Abstract: Cassbeam is a Cassegrain antenna ray tracer.  Based on an input text
+ file, it computes several properties of the antenna including gain,
+ zenith system temperature, and the beam, in full polarization.  All calculations
+ are done in the transmit sense and use reciprocity to relate to the
+ equivalent receiving system.
+Section: Science/Astronomy
+
+Format: PDF
+Files: /usr/share/doc/cassbeam/cassbeam.pdf

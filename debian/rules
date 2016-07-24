@@ -7,8 +7,12 @@
 %:
 	dh $@  --with autotools-dev
 
+override_dh_installdocs:
+	(cd doc && pdflatex cassbeam.tex && pdflatex cassbeam.tex && pdflatex cassbeam.tex)
+	dh_installdocs
+
 override_dh_compress:
-	dh_compress -Xvla_geom
+	dh_compress -Xcassbeam.pdf -Xvla_geom
 
 override_dh_clean:
 	dh_clean

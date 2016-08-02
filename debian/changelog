@@ -1,6 +1,6 @@
 cassbeam (0.1-1) UNRELEASED; urgency=low
 
-  * New packaging from scratch. Closes: #000000
+  * New packaging from scratch. Closes: #833259
 
  -- Gijs Molenaar <gijs@pythonic.nl>  Wed, 06 Jul 2016 11:29:29 +0200
 

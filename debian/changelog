@@ -1,0 +1,74 @@
+cassbeam (1.0-8) unstable; urgency=low
+
+  * QA upload.
+  * Build-depend on libglib2.0 instead of 1.2.
+  * Update watch file. (Closes: #450135).
+  * Replace deprecated tetex-extra build-dep with texlive.
+  * Make clean not ignore errors.
+  * Replace pwd with $(CURDIR) in rules.
+  * Add appropriate copyright holders to debian/copyright.
+  * Bump debhelper build-dep and compat to 5.
+  * Bump Standards Version to 3.8.1.
+    + Menu policy transition. (Closes: #496096).
+
+ -- Barry deFreese <bdefreese@debian.org>  Mon, 13 Apr 2009 12:42:35 -0400
+
+cassbeam (1.0-7) unstable; urgency=low
+
+  * QA upload.
+  * Set maintainer to QA Group; Orphaned: #391196
+  * Add missing binary-indep target to debian/rules
+  * Conforms with latest Standards Version 3.7.2
+
+ -- Michael Ablassmeier <abi@debian.org>  Mon, 16 Oct 2006 08:20:34 +0200
+
+cassbeam (1.0-6) unstable; urgency=low
+
+  * Removed 'libkpathsea3' from the Build-Depends line of debian/control
+    as it is not needed; Closes: #308012
+
+ -- Brian R Furry <bfurry@nac.net>  Sun,  8 May 2005 20:53:30 -0400
+
+cassbeam (1.0-5) unstable; urgency=low
+
+  * Added more useful information to the package description; Closes: #294261
+  * Added 'dh_install' to install target of the debian/rules file
+    instead of using '$(MAKE) install prefix=$$(pwd)/debian/cassbeam/usr'
+	
+ -- Brian R Furry <bfurry@nac.net>  Sat, 12 Feb 2005 14:22:03 -0500
+
+cassbeam (1.0-4) unstable; urgency=low
+
+  * Added cassbeam.1 and Makefile to the clean target of debian/rules
+    since they are automatcially generated
+  * Added config.sub and config.guess to the clean target of debian/rules
+    since they are not needed
+  * Removed the .flc file from the upstream source 
+	
+ -- Brian R Furry <bfurry@nac.net>  Sun, 25 Apr 2004 01:00:34 +0000
+
+cassbeam (1.0-3) unstable; urgency=low
+
+  * Fixed debian/watch file
+  * Fixed configure.in script so '-lrfftw -lfftw' are added to LIBS var
+    on arm and m68k archs by having XLIBS initialized first; Closes: #230027
+
+ -- Brian R Furry <bfurry@nac.net>  Wed, 14 Jan 2004 01:00:34 +0000
+
+cassbeam (1.0-2) unstable; urgency=low
+
+  * Fixed debian/copyright file
+  * Removed cassbeam.tex as a documentation file
+  * Fixed debian/rules file in regards to dh_strip and INSTALL_PROGRAM
+  * Removed automatic config.sub and config.guess updates from clean target in
+    rules file
+  * Moved cassbeam from x11 to correct section of science
+
+ -- Brian R Furry <bfurry@nac.net>  Sat, 15 Nov 2003 20:40:02 +0000
+
+cassbeam (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Brian R Furry <bfurry@nac.net>  Sat, 13 Sep 2003 00:50:57 +0000
+

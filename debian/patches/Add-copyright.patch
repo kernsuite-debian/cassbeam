@@ -1,0 +1,657 @@
+From: Ole Streicher <olebole@debian.org>
+Date: Fri, 22 Jul 2016 21:42:22 +0200
+Subject: Add copyright
+
+---
+ antenna.c      | 16 ++++++++++++++++
+ antenna.h      | 16 ++++++++++++++++
+ cassbeam.c     | 16 ++++++++++++++++
+ constants.h    | 16 ++++++++++++++++
+ illum.c        | 16 ++++++++++++++++
+ illum.h        | 16 ++++++++++++++++
+ image-vector.c | 16 ++++++++++++++++
+ image-vector.h | 16 ++++++++++++++++
+ image.c        | 16 ++++++++++++++++
+ image.h        | 16 ++++++++++++++++
+ intvector.c    | 16 ++++++++++++++++
+ intvector.h    | 16 ++++++++++++++++
+ keyvalue.c     | 16 ++++++++++++++++
+ keyvalue.h     | 16 ++++++++++++++++
+ mathfunc.c     | 16 ++++++++++++++++
+ mathfunc.h     | 16 ++++++++++++++++
+ polygon.c      | 16 ++++++++++++++++
+ polygon.h      | 16 ++++++++++++++++
+ randdist.c     | 16 ++++++++++++++++
+ randdist.h     | 16 ++++++++++++++++
+ vecarray.c     | 16 ++++++++++++++++
+ vecarray.h     | 16 ++++++++++++++++
+ vector-fftw.c  | 16 ++++++++++++++++
+ vector-fftw.h  | 16 ++++++++++++++++
+ vector.c       | 16 ++++++++++++++++
+ vector.h       | 16 ++++++++++++++++
+ 26 files changed, 416 insertions(+)
+
+diff --git a/antenna.c b/antenna.c
+index 58996ef..692fac0 100644
+--- a/antenna.c
++++ b/antenna.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <stdio.h>
+ #include <math.h>
+ #include <glib.h>
+diff --git a/antenna.h b/antenna.h
+index 801d33b..9696b5b 100644
+--- a/antenna.h
++++ b/antenna.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __ANTENNA_H__
+ #define __ANTENNA_H__
+ 
+diff --git a/cassbeam.c b/cassbeam.c
+index 4d4d6d7..a8269ef 100644
+--- a/cassbeam.c
++++ b/cassbeam.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <stdio.h>
+ #include <math.h>
+ #include <glib.h>
+diff --git a/constants.h b/constants.h
+index 5892368..25a3739 100644
+--- a/constants.h
++++ b/constants.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __CONSTANTS_H__
+ #define __CONSTANTS_H__
+ 
+diff --git a/illum.c b/illum.c
+index d963319..323c312 100644
+--- a/illum.c
++++ b/illum.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <stdio.h>
+ #include <string.h>
+ #include <glib.h>
+diff --git a/illum.h b/illum.h
+index 8b59791..befe7e1 100644
+--- a/illum.h
++++ b/illum.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __ILLUM_H__
+ #define __ILLUM_H__
+ 
+diff --git a/image-vector.c b/image-vector.c
+index a62ef2d..1b4c528 100644
+--- a/image-vector.c
++++ b/image-vector.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <glib.h>
+ #include "image-vector.h"
+ 
+diff --git a/image-vector.h b/image-vector.h
+index 017d06d..ff82055 100644
+--- a/image-vector.h
++++ b/image-vector.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __IMAGE_VECTOR__
+ #define __IMAGE_VECTOR__
+ 
+diff --git a/image.c b/image.c
+index b879d4d..4782e92 100644
+--- a/image.c
++++ b/image.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <glib.h>
+ #include <string.h>
+ #include <stdio.h>
+diff --git a/image.h b/image.h
+index 147a97b..e96f79b 100644
+--- a/image.h
++++ b/image.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __IMAGE_H__
+ #define __IMAGE_H__
+ 
+diff --git a/intvector.c b/intvector.c
+index 4e38e3e..83c6adc 100644
+--- a/intvector.c
++++ b/intvector.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <glib.h>
+ #include <stdio.h>
+ #include "intvector.h"
+diff --git a/intvector.h b/intvector.h
+index e2b7abe..6024248 100644
+--- a/intvector.h
++++ b/intvector.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __INT_VECTOR__
+ #define __INT_VECTOR__
+ 
+diff --git a/keyvalue.c b/keyvalue.c
+index 9308db8..4744731 100644
+--- a/keyvalue.c
++++ b/keyvalue.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <stdio.h>
+ #include <string.h>
+ #include <stdlib.h>
+diff --git a/keyvalue.h b/keyvalue.h
+index 6b04ded..f18cb9f 100644
+--- a/keyvalue.h
++++ b/keyvalue.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __KEYVALUE__
+ #define __KEYVALUE__
+ 
+diff --git a/mathfunc.c b/mathfunc.c
+index 3d6a264..8e57058 100644
+--- a/mathfunc.c
++++ b/mathfunc.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <math.h>
+ #include "mathfunc.h"
+ 
+diff --git a/mathfunc.h b/mathfunc.h
+index f57ca0e..4b0d0e4 100644
+--- a/mathfunc.h
++++ b/mathfunc.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __MATHFUNC_H__
+ #define __MATHFUNC_H__
+ 
+diff --git a/polygon.c b/polygon.c
+index 7e9440c..23f03a1 100644
+--- a/polygon.c
++++ b/polygon.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <glib.h>
+ #include <math.h>
+ #include "polygon.h"
+diff --git a/polygon.h b/polygon.h
+index ddf4795..3a318d6 100644
+--- a/polygon.h
++++ b/polygon.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __POLYGON_H__
+ #define __POLYGON_H__
+ 
+diff --git a/randdist.c b/randdist.c
+index 45e6a12..272b0e8 100644
+--- a/randdist.c
++++ b/randdist.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <math.h>
+ #include <glib.h>
+ #include <stdio.h>
+diff --git a/randdist.h b/randdist.h
+index 0aec994..805d515 100644
+--- a/randdist.h
++++ b/randdist.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __GAUSS__
+ #define __GAUSS__
+ 
+diff --git a/vecarray.c b/vecarray.c
+index 440a310..51aa175 100644
+--- a/vecarray.c
++++ b/vecarray.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <stdarg.h>
+ #include <glib.h>
+ #include <stdio.h>
+diff --git a/vecarray.h b/vecarray.h
+index aa375fc..9e1f71b 100644
+--- a/vecarray.h
++++ b/vecarray.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __VECARRAY__
+ #define __VECARRAY__
+ 
+diff --git a/vector-fftw.c b/vector-fftw.c
+index 362f78b..e6113d9 100644
+--- a/vector-fftw.c
++++ b/vector-fftw.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <glib.h>
+ #include "vector-fftw.h"
+ 
+diff --git a/vector-fftw.h b/vector-fftw.h
+index b46425b..19fd84f 100644
+--- a/vector-fftw.h
++++ b/vector-fftw.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __VECTOR_FFTW_H__
+ #define __VECTOR_FFTW_H__
+ 
+diff --git a/vector.c b/vector.c
+index b511367..9d1d73c 100644
+--- a/vector.c
++++ b/vector.c
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #include <math.h>
+ #include <string.h>
+ #include <stdlib.h>
+diff --git a/vector.h b/vector.h
+index 1ac3c51..2dde790 100644
+--- a/vector.h
++++ b/vector.h
+@@ -1,3 +1,19 @@
++/* cassbeam - a Cassegrain antenna simulator
++    Copyright (C) August 18, 2003  Walter Brisken
++
++    This program is free software; you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation; either version 2 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program; if not, write to the Free Software
++    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA*/
+ #ifndef __VECTOR__
+ #define __VECTOR__
+ 

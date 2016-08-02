@@ -1,0 +1,28 @@
+Source: cassbeam
+Section: science
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: fftw-dev, docbook-to-man, texlive-latex-extra, libglib2.0-dev, jade, debhelper ( >= 5)
+Standards-Version: 3.8.1
+
+Package: cassbeam
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: A program for Cassegrain antenna modelling
+ Cassbeam is a Cassegrain antenna ray tracer.  A Cassegrain antenna 
+ is a double reflector system which works on the principle of cassegrain 
+ optical telescope.  A high gain cassegrain reflector antenna in Ku-band 
+ has been successfully developed for command transmit application for the 
+ missile programme. It can also be used for monopulse radar, satellite 
+ communication.  
+ .
+ Based on an input text file, it computes several properties of the 
+ antenna including gain, zenith system temperature, and the beam, in full 
+ polarization.  All calculations are done in the transmit sense
+ and use reciprocity to relate to the equivalent receiving system.
+ .
+ Additionally, cassbeam allows deformations, or pathologies of the 
+ optics to be modelled.  Currently this is limited to rotations and 
+ translations of the feed and secondary.  In the future, large scale 
+ deviations in the primary (such as a misplaced panel) will likely be 
+ supported.

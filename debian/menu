@@ -1,0 +1,6 @@
+?package(cassbeam):\
+ needs="text"\
+ section="Applications/Science/Astronomy"\
+ hints="Astronomy"\
+ title="cassbeam"\
+ command="/usr/bin/cassbeam"

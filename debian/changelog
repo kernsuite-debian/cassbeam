@@ -1,4 +1,4 @@
-cassbeam (0.1-1) UNRELEASED; urgency=low
+cassbeam (1.1-1) UNRELEASED; urgency=low
 
   * New packaging from scratch. Closes: #833259
 

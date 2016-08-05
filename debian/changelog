@@ -1,8 +1,8 @@
-cassbeam (1.1-1) UNRELEASED; urgency=low
+cassbeam (1.1-1) unstable; urgency=low
 
   * New packaging from scratch. Closes: #833259
 
- -- Gijs Molenaar <gijs@pythonic.nl>  Wed, 06 Jul 2016 11:29:29 +0200
+ -- Ole Streicher <olebole@debian.org>  Fri, 05 Aug 2016 17:23:14 +0200
 
 cassbeam (1.0-8) unstable; urgency=low
 
